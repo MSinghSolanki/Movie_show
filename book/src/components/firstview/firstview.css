@@ -1,0 +1,58 @@
+.show-list-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.show-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.show-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.show-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.show-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.show-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.show-title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.view-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+  background-color: #0056b3;
+}
