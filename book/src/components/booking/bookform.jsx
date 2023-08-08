@@ -66,7 +66,7 @@ export const BookingForm = ({ movieName, movieImage, onClose }) => {
                       onChange={handleInputChange}
                     />
                   </label>
-                  {/* Add more input fields for other user details */}
+
                   <button type="submit">Submit Booking</button>
                 </form>
               </div>
