@@ -1,11 +1,11 @@
-/* bookingform.css */
+
 
 
 .movie-details{
   display: flex;
 }
 .popup {
-  /* Styles for the popup container */
+ 
   position: fixed;
   top: 0;
   left: 0;
@@ -18,7 +18,7 @@
 }
 
 .popup-content {
-  /* Styles for the content within the popup */
+ 
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -29,7 +29,7 @@
 }
 
 .close-button {
-  /* Styles for the close button */
+  
   position: absolute;
   top: 10px;
   right: 10px;
@@ -38,45 +38,45 @@
 }
 
 .booking-form-container {
-  /* Styles for the booking form layout */
+ 
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .movie-image {
-  /* Styles for the movie image section */
+ 
   flex: 1;
   padding: 20px;
 }
 
 .movie-image img {
-  /* Styles for the movie image */
+  
   max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .booking-details {
-  /* Styles for the booking details section */
+ 
   flex: 2;
   padding: 20px;
 }
 
 h2 {
-  /* Styles for the heading */
+ 
   margin-top: 0;
   font-size: 24px;
   color: #333;
 }
 
 form {
-  /* Styles for the form */
+ 
   margin-top: 20px;
 }
 
 label {
-  /* Styles for form labels */
+
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
@@ -84,7 +84,7 @@ label {
 }
 
 input {
-  /* Styles for input fields */
+ 
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -93,7 +93,7 @@ input {
 }
 
 button {
-  /* Styles for the submit button */
+
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
@@ -104,12 +104,12 @@ button {
 }
 
 button:hover {
-  /* Hover effect for the submit button */
+
   background-color: #0056b3;
 }
 
 .confirmation-message {
-  /* Styles for the confirmation message */
+ 
   text-align: center;
 }
 
