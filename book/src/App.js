@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import {ShowList} from './components/firstview/firstview.jsx';
-import {ShowDetails} from './components/second/second.jsx';
+import {ShowList} from './components/ListView/firstview.jsx';
+import {ShowDetails} from './components/SummaryView/second.jsx';
+import { WelcomePage } from './components/Welcome/main.jsx';
 import "./App.css"
-import WelcomePage from './components/main/main.jsx';
+
 const App=()=> {
   return (
     <div>

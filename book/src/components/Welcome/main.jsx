@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './main.css';
 
-const WelcomePage = () => {
+export const WelcomePage = () => {
     return (
       <div className="welcome-page">
         <img src='https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='backgorund'/>
@@ -16,4 +16,4 @@ const WelcomePage = () => {
     );
   };
 
-export default WelcomePage;
+
